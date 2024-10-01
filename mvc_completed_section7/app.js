@@ -18,5 +18,5 @@ app.use(shopRoutes);
 
 
 app.use(errorPageController.errorPage)
-// we can also write the following line in place of anyother lines 
+// we can also write the following line in place of anyother lines.
 app.listen(3000);
