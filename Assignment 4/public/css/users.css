@@ -1,0 +1,24 @@
+/* Unordered List Styles */
+.styled-list {
+    list-style-type: none; /* Removes default bullets */
+    padding-left: 0;       /* Removes default left padding */
+    margin: 20px 0;        /* Adds space above and below the list */
+  }
+  
+  /* List Item Styles */
+  .styled-list li {
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover Effect for List Items */
+  .styled-list li:hover {
+    background-color: #e0e0e0;
+  }
+  

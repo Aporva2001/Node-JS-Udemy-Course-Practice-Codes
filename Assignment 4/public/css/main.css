@@ -1,0 +1,38 @@
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+
+/* Navbar Container */
+.navbar {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  /* Navbar Links */
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover Effect for Links */
+  .nav-link:hover {
+    background-color: #575757;
+  }
+.active{
+    text-decoration: underline;
+}
